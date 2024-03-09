@@ -1,0 +1,6 @@
+.input {
+  border: 2.2px solid rgb(241, 220, 220);
+}
+.input:hover {
+  border: 2.3px solid orangered;
+}

@@ -1,0 +1,34 @@
+.tarjetaCategoria {
+  width: 370px;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+}
+.tarjetaCategoria__info {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+.tarjetaCategoria-info__boton {
+  height: 50px;
+  width: 70px;
+  border-radius: none;
+  border: none;
+  background-color: rgb(119, 160, 142);
+  color: white;
+  cursor: pointer;
+}
+.tarjetaCategoria-info__texto {
+  font-size: 45px;
+  color: white;
+}
+.tarjetaCategoria__imagen {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.6);
+  border-radius: 4px;
+}

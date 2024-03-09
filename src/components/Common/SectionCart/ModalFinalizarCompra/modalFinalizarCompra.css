@@ -1,0 +1,146 @@
+.container-modalTerminarCompra {
+  background-color: red;
+}
+.form-finalizarCompra {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.icono-okey {
+  border: 1px solid red;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+}
+.image-pago {
+  width: 220px;
+  height: 220px;
+}
+.container-pagoTerminado {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.titulo-pago {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.buton-seguirComprandoPago {
+  height: 40px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(128, 0, 128, 0.829);
+  color: white;
+  font-size: 18px;
+  border: none;
+
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.buton-seguirComprandoPago:hover {
+  background-color: rgb(128, 0, 128);
+}
+.subtitulo-pago {
+  color: rgb(44, 43, 43);
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.seguimiento-pago {
+  color: rgb(44, 43, 43);
+  font-weight: 400;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.total-pago {
+  color: rgb(44, 43, 43);
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.span-seguimiento {
+  color: rgb(109, 10, 109);
+}
+.icon-cruz-termianrPago {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  cursor: pointer;
+}
+.container-logo-modal {
+  display: flex;
+  justify-content: center;
+}
+.container-boton-modal {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.container-boton-modal button {
+  font-size: 17px;
+  width: 170px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(128, 0, 128, 0.829);
+  height: 35px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: all 0.2s;
+}
+.container-boton-modal button:hover {
+  background-color: rgba(128, 0, 128, 0.973);
+}
+
+.container-image-modal {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 140px;
+  border: 8px solid green;
+}
+.container-image-modal img {
+  width: 100px;
+}
+.container-textos-modalTerminar {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.container-general-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  padding-top: 40px;
+  border: 2px solid #000;
+  width: 500px;
+  height: auto;
+}
+
+.container-textos-modalTerminar{
+  justify-content:center;
+  
+}
+
+

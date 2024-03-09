@@ -1,0 +1,9 @@
+.home__formasPago {
+  display: flex;
+  margin: 50px;
+  gap: 40px;
+  border: 1px solid rgba(117, 113, 113, 0.459);
+  padding: 20px;
+  border-radius: 4px;
+  
+}

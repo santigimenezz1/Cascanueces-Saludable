@@ -1,0 +1,101 @@
+/* Estilos originales */
+.navBarMobile {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid rgba(160, 154, 154, 0.356);
+  background-color: rgb(128, 0, 128);
+  width: 100%;
+  height: 60px;
+  display: none;
+  
+}
+
+.navBar__enlaces {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navBar__enlaces__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.navBar__enlaces__icons__corazon {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navBar__enlaces__icons__corazon:hover {
+  transform: scale(1.09);
+}
+
+.navBar__enlaces__icons__login {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navBar__enlaces__icons__login:hover {
+  transform: scale(1.02);
+}
+
+.link__corazon {
+  color: black;
+}
+
+/* Contenedor de enlaces cuando está cerrado */
+.contenedor__enlaces__mobileOff {
+  display: none;
+  
+}
+
+/* Contenedor de enlaces cuando está abierto */
+.container__enlaces {
+  position: absolute;
+  top: 10;
+  width: 100%;
+  height: auto;
+  background-color: purple;
+  border: none;
+  overflow: unset;
+  z-index: 999 ;
+
+}
+
+/* Agrega las clases de transición para el contenedor de los enlaces */
+.enlaces-enter {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 300ms, max-height 300ms, transform 300ms;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+.enlaces-enter-active {
+  opacity: 1;
+  max-height: 200px; /* Establece la altura máxima deseada */
+  transform: scaleY(1);
+}
+
+.enlaces-exit {
+  opacity: 1;
+  max-height: 200px; /* Establece la altura máxima deseada */
+  overflow: hidden;
+  transition: opacity 300ms, max-height 300ms, transform 300ms;
+  transform-origin: top;
+  transform: scaleY(1);
+}
+
+.enlaces-exit-active {
+  opacity: 0;
+  max-height: 0;
+  transform: scaleY(0);
+}

@@ -1,0 +1,25 @@
+
+
+.tarjeta__carrusel{
+    display: none;
+    border: 1px solid red;
+    height: 50px;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.inputs__tarjetaCarrusel{
+    height: auto;
+    position: relative;
+    
+}
+.react-multiple-carousel__arrow{
+    top: 40%;
+}
+.react-multiple-carousel__arrow--right {
+    margin-right: 40px; /* Ajusta la cantidad de desplazamiento según tus necesidades */
+  }
+  .react-multi-carousel-dot-list{
+    display: none;
+  }
+

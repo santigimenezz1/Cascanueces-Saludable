@@ -1,0 +1,9 @@
+.fondoFijo__button button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgba(51, 16, 47, 0.846);
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,22 @@
+.container-carrusel {
+  position: relative;
+}
+.carrusel-image {
+  width: 100%;
+}
+.button-carrusel1 {
+  position: absolute;
+  top: 45%;
+}
+.button-carrusel2 {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+.icon-carrusel {
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 5px;
+  width: 100px;
+}

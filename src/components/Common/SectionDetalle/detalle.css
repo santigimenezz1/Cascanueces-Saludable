@@ -1,0 +1,107 @@
+.detalle {
+  height: 600px;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+
+ 
+}
+
+.detalle__containerTarjetaDetalle {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.detalle__imagen {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.detalle__info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+}
+.detalle__info__caracteristicas {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.detalle__info__contadorUnidades {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 80px;
+}
+.detalle__info__titulo {
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  line-height: 1.2em;
+}
+.detalle__info__precio {
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  line-height: 1.2em;
+  font-size: 25px;
+  color: purple;
+}
+.detalle__info__caracteristicas {
+  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  line-height: 1.2em;
+  font-size: 15px;
+}
+.detalle__info__stock {
+  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  line-height: 1.2em;
+  font-size: 15px;
+}
+
+.detalle__tarjetaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+.detalle__imagen__esqueleton {
+  display: flex;
+  justify-content: center;
+}
+.detalle__info__esqueleton {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.detalle__info__esqueleton__caja1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detalle__sinStock__titulo {
+  color: rgb(221, 6, 6);
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.imagen_detalle {
+  width: 400px;
+  height: 500px;
+}

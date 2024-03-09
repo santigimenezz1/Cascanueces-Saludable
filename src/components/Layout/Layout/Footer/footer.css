@@ -1,0 +1,39 @@
+.footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  background-color: rgba(143, 171, 171, 0.185);
+  border-top: 1px solid rgba(128, 0, 128, 0.189);
+
+}
+.footer h1 {
+  margin-bottom: 10px;
+}
+.footer__enlaces {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contacto__direccion {
+  display: flex;
+  gap: 5px;
+}
+.footer__contacto__whatsapp {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+.footer__contacto__email {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer__contacto {
+  display: flex;
+  flex-direction: column;
+}

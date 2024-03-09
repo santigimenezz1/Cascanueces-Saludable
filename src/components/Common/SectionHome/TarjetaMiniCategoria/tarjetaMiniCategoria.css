@@ -1,0 +1,44 @@
+.tarjetaMiniCategoria {
+  width: 185px;
+  height: 145px;
+  position: relative;
+  overflow: hidden; /* Para recortar cualquier desbordamiento de la imagen */
+}
+
+.tarjetaMiniCategoria__imagenContainer {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; /* Para recortar cualquier desbordamiento de la imagen */
+  transition: transform 0.3s ease; /* Agregamos una transición suave a la transformación */
+}
+
+.tarjetaMiniCategoria:hover .tarjetaMiniCategoria__imagenContainer {
+  transform: scale(1.1); /* Escala la imagen en un 10% al hacer hover */
+}
+
+.tarjetaMiniCategoria__imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen se ajuste y recorte correctamente */
+  transition: opacity 0.3s ease; /* Agregamos una transición suave a la opacidad */
+  filter: brightness(0.6);
+}
+
+.tarjetaMiniCategoria:hover .tarjetaMiniCategoria__imagen {
+  opacity: 1; /* Restauramos la opacidad completa al hacer hover */
+  border-radius: 9px;
+}
+
+.tarjetaMiniCategoria__titulo {
+  position: absolute;
+  top: 65px;
+  left: 25%;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}

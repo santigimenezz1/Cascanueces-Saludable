@@ -1,0 +1,68 @@
+.imagenesGrid {
+  width: 1050px;
+  height: 600px;
+  margin: 50px;
+  display: flex;
+  gap: 15px;
+}
+.imagenesGrid__imagenPrincipal {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.imagenesGrid__imagenesSecundaria {
+  width: 70%;
+  height: 100%;
+}
+.imagenesGrid__imagenPrincipal__caja1 {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(120, 153, 139, 0.703);
+}
+.imagenesGrid__imagenPrincipal__caja1 img {
+  width: 90%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.imagenesGrid__imagenPrincipal__caja1 img:hover {
+  transform: scale(1.2);
+}
+.imagenesGrid__imagenesSecundaria {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.imagenesGrid__imagenesSecundaria__caja1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.imagenesGrid__imagenesSecundaria__caja2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.imagenesGrid__imagenesSecundaria__caja2__imagen {
+  width: 235px;
+  height: 90%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.imagenesGrid__imagenesSecundaria__caja2__imagen:hover {
+  transform: scale(1.2);
+}
+.container__imagenesSecundaria {
+  background-color: rgba(120, 153, 139, 0.703);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

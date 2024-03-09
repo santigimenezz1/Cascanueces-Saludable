@@ -1,0 +1,49 @@
+.tarjetaProductoCategoria {
+  background-color: white;
+  margin: 20px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.tarjetaProducto__imagenProducto {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(120, 153, 139, 0.703);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetaProducto__imagenProducto img {
+  width: 180px;
+  padding: 20px;
+}
+.tarjetaProducto__tituloProducto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.tarjetaProducto__tituloProducto h3 {
+  font-weight: 300;
+  font-size: 14px;
+}
+.tarjetaProducto__tituloProducto h4 {
+  font-weight: 300;
+  font-size: 14px;
+}
+.tarjetaProducto__boton {
+  width: 100%;
+  height: 35px;
+  background-color: rgba(51, 16, 47, 0.846);
+  color: white;
+  border: none;
+  cursor: pointer;
+}

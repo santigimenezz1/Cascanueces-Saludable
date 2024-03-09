@@ -1,0 +1,6 @@
+.iconoWhatsapp {
+  transition: all 0.2s;
+}
+.iconoWhatsapp:hover {
+  transform: scale(1.2);
+}

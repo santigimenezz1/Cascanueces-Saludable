@@ -1,0 +1,308 @@
+import React, { useState } from "react";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link } from "react-router-dom";
+import '../EnlacesResponsive/enlacesResponsive.css'
+
+export default function AcordionCategorias() {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleAccordionChange = () => {
+    setExpanded(!expanded);
+  };
+
+  return (
+    <div className="container-acordion">
+      <Accordion expanded={expanded} onChange={handleAccordionChange}>
+        <AccordionSummary 
+          expandIcon={<ExpandMoreIcon sx={{ color: "purple" }} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Categorias</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ul className="lista-accordion">
+            <Link
+              className="linkCategorias"
+              to={"/categoria/notebook"}
+              onClick={handleAccordionChange}
+            >
+            <h1>Categorías de productos</h1>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/procesadores"}
+              onClick={handleAccordionChange}
+            >
+            <h1>Condimentos</h1>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/semillas"}
+              onClick={handleAccordionChange}
+            >
+            <li>semillas</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/frutos-secos"}
+              onClick={handleAccordionChange}
+            >
+              <li>frutos secos</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/frutas-desecadas"}
+              onClick={handleAccordionChange}
+            >
+              <li>frutas desecadas</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/cereales"}
+              onClick={handleAccordionChange}
+            >
+              <li>cereales</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/granola"}
+
+              onClick={handleAccordionChange}
+            >
+              <li>granola</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/legumbres-arroz"}
+              onClick={handleAccordionChange}
+            >
+              <li>legumbres y arroz</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/salados"}
+              onClick={handleAccordionChange}
+            >
+              <li>salados</li>
+            </Link>
+            <Link
+              className="linkCategorias"
+              to={"/categoria/sales"}
+              onClick={handleAccordionChange}
+            >
+              <li>sales</li>
+            </Link>
+            <Link
+            className="linkCategorias"
+            to={"/categoria/hierbas"}
+            onClick={handleAccordionChange}
+          >
+            <li>hierbas</li>
+          </Link>
+          <Link
+          className="linkCategorias"
+          to={"/categoria/pastas-mani"}
+          onClick={handleAccordionChange}
+        >
+          <li>pastas de mani</li>
+        </Link>
+        <Link
+        className="linkCategorias"
+        to={"/categoria/harina-avenas"}
+        onClick={handleAccordionChange}
+      >
+        <li>harinas y Avenas</li>
+      </Link>
+      <Link
+      className="linkCategorias"
+      to={"/categoria/reposteria"}
+      onClick={handleAccordionChange}
+    >
+      <li>Reposteria</li>
+    </Link>
+    <Link
+    className="linkCategorias"
+    to={"/categoria/tostadas-galletas-arroz"}
+    onClick={handleAccordionChange}
+  >
+    <li>Tostadas y Galletas de arroz</li>
+  </Link>
+  <Link
+  className="linkCategorias"
+  to={"/categoria/galletitas-sin-sal"}
+  onClick={handleAccordionChange}
+>
+  <li>Galletitas sin sal</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/yerbas"}
+onClick={handleAccordionChange}
+>
+<li>yerbas</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/galletitas"}
+onClick={handleAccordionChange}
+>
+<li>Galletitas</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/barritas-golosinas-veggie"}
+onClick={handleAccordionChange}
+>
+<li>barritas-golisonas-veggie</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-barritas-golisonas-veggie"}
+onClick={handleAccordionChange}
+>
+<li>alfajores-barritas-golisonas-veggie</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/productos-proteicos"}
+onClick={handleAccordionChange}
+>
+<li>Productos-proteicos</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/heladera"}
+onClick={handleAccordionChange}
+>
+<li>Heladera</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/snacks-sin-taac"}
+onClick={handleAccordionChange}
+>
+<li>Snacks-sin-taac</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-barritas-golosinas-sin-taac"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-barritas-golosinas-sin-taac</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/galletitas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Galletitas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/galletitas-sin-taac"}
+onClick={handleAccordionChange}
+>
+<li>Galletitas-sin-taac</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/alfajores-golosinas-sin-azucar"}
+onClick={handleAccordionChange}
+>
+<li>Alfajores-golosinas-sin-azucar</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/leches-vegetales"}
+onClick={handleAccordionChange}
+>
+<li>Leches vegetales</li>
+</Link>
+<Link
+className="linkCategorias"
+to={"/categoria/miel"}
+onClick={handleAccordionChange}
+>
+<li>Miel</li>
+</Link>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+    </div>
+  );
+}
