@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
+  margin-top: 100px;
 
  
 }
@@ -16,12 +17,19 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
+
 }
 .detalle__imagen {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+.detalle__imagen img {
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agregado box-shadow */
+
 
 }
 
@@ -47,27 +55,37 @@
 }
 .detalle__info__titulo {
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito";
   line-height: 1.2em;
+  font-size: 30px;
+  color: rgb(80, 182, 185);
+  font-weight: bold;
 }
 .detalle__info__precio {
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito";
   line-height: 1.2em;
   font-size: 25px;
-  color: purple;
+  color: rgb(80, 182, 185);
 }
 .detalle__info__caracteristicas {
   font-weight: 200;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito";
   line-height: 1.2em;
-  font-size: 15px;
+  font-size: 20px;
+  color: rgb(80, 182, 185);
 }
 .detalle__info__stock {
   font-weight: 200;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito";
   line-height: 1.2em;
   font-size: 15px;
+
+  font-weight: 200;
+  font-family: "Nunito";
+  line-height: 1.2em;
+  font-size: 20px;
+  color: rgb(80, 182, 185);
 }
 
 .detalle__tarjetaProductos {
@@ -104,4 +122,10 @@
 .imagen_detalle {
   width: 400px;
   height: 500px;
+}
+
+.detalle__info__caracteristicas__ingredientes{
+  color: rgb(80, 182, 185);
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 30px;
 }

@@ -17,6 +17,7 @@ import { Skeleton } from "@mui/material";
 import { CartContext } from "../../../Context/CartContext";
 import Swal from "sweetalert2";
 import { ToastContainer, toast } from "react-toastify";
+import TextoCeleste from "../SectionHome/TextoCeleste/TextoCeleste";
 
 const Detalle = () => {
   const { id } = useParams();
@@ -80,12 +81,11 @@ const Detalle = () => {
                 <h1 className="detalle__info__titulo">{data.nombre}</h1>
                 <h1 className="detalle__info__precio">${data.precio}</h1>
                 <div className="detalle__info__caracteristicas">
+                  <h3 className="detalle__info__caracteristicas__ingredientes">- Ingredientes</h3>
                   <h2 className="detalle__info__caracteristicas">
-                    {data.caracteristica1}
+                 -   {data.caracteristica1}
                   </h2>
-                  <h2 className="detalle__info__caracteristicas">
-                    {data.caracteristica2}
-                  </h2>
+                  
                 </div>
 
                 <div className="detalle__info__contadorUnidades">

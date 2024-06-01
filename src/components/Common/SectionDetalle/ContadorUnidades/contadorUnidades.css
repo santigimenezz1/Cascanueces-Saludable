@@ -7,6 +7,11 @@
   color: rgb(97, 93, 93);
   align-items: center;
   height: 35px;
+
+  font-weight: 200;
+  font-family: "Nunito";
+  line-height: 1.2em;
+  font-size: 20px;
 }
 .container-agregandoProductoCarrito {
   display: flex;
@@ -18,13 +23,13 @@
 .botones {
   border: none;
   font-size: 35px;
-  color: rgba(16, 17, 17, 0.719);
+  color: black;
   cursor: pointer;
   background-color: white;
 }
 
 .pantalla {
-  color: #202020c5;
+  color: black;
   font-size: 20px;
 }
 .maximoAlcanzado {
@@ -38,11 +43,12 @@
 .contadorUnidades__button {
   width: 120px;
   height: 40px;
-  background-color: rgb(119, 160, 142);
+  background-color: rgb(80, 182, 185);;
   color: white;
   border: none;
   cursor: pointer;
   padding: 7px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito";
+  font-size: 12px;
+  border-radius: 4px;
 }
