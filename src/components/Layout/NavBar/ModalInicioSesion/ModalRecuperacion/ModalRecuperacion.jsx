@@ -94,7 +94,7 @@ const recuperar = async (data) => {
 
   return (
     <div>
-      <Button style={{color:"purple", marginTop:"10px"}} onClick={handleOpen}>¿Olvidaste tu contraseña?</Button>
+      <Button style={{color:"rgb(80, 182, 185)", marginTop:"10px"}} onClick={handleOpen}>¿Olvidaste tu contraseña?</Button>
       <Modal
         open={open}
         onClose={handleClose}

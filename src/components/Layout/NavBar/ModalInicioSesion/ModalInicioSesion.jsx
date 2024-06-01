@@ -124,7 +124,7 @@ export default function ModalInicioSesion() {
               />
               <div className="tipografia-box">
                 <Typography
-                  style={{ color: "black", fontSize: "25px" }}
+                  style={{ color: "black", fontSize: "25px", fontFamily:"Nunito" }}
                   id="transition-modal-title"
                   variant="h6"
                   component="h2"
@@ -133,9 +133,11 @@ export default function ModalInicioSesion() {
                 </Typography>
                 <Typography
                   style={{
-                    color: "purple",
+                    color: "rgb(80, 182, 185)",
                     fontSize: "15px",
                     fontWeight: "200",
+                    fontFamily:"Nunito"
+
                   }}
                   id="transition-modal-description"
                 >
@@ -177,7 +179,7 @@ export default function ModalInicioSesion() {
                 />
                 {estado && <h1>Esta cuenta no existe. Crea tu cuenta</h1>}
                 <div className="container-botonBox">
-                  <button type="submit" className="botones-box">
+                  <button style={{backgroundColor:"rgb(80, 182, 185)"}} type="submit" className="botones-box">
                     Continuar
                   </button>
                   <ModalCrearCuenta

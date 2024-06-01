@@ -27,14 +27,18 @@
 .container-link h1 {
   text-align: center;
   margin: 5px;
+  font-family: "Nunito";
 }
 .container-inputs {
   border: 1px solid red;
   margin-top: 30px;
+  font-family: "Nunito";
+
 }
 .buton-crearCuenta {
   height: 40px;
-  background-color: purple;
+  background-color:  rgb(80, 182, 185);
+  ;
   border-radius: 4px;
   border: none;
   color: white;
@@ -42,6 +46,8 @@
   cursor: pointer;
   padding: 10px;
   margin-top: 20px;
+  font-family: "Nunito";
+
 }
 .container-box {
   display: flex;
@@ -60,17 +66,21 @@
   display: flex;
   gap: 30px;
   width: 100%;
+  font-family: "Nunito";
+
 }
 .button__crearCuenta button{
   color: white;
-  background-color: purple;
+  background-color: rgb(80, 182, 185);
   border-radius: 4px;
   width: 100%;
   font-size: 16px;
+  font-family: "Nunito";
+
 }
 .button__crearCuenta button:hover{
   color: white;
-  background-color: rgb(142, 21, 142);
+  background-color: rgb(66, 149, 152);
   border-radius: 4px;
   width: 100%;
   font-size: 16px;
@@ -98,4 +108,6 @@ background-color: white; /* Cambia var(--background-paper) por el color deseado 
 padding: 16px; /* Asumiendo que deseas un padding de 16px (equivalente a 4 en píxeles) */
 border-radius: 4px;
 border: none;
+font-family: "Nunito";
+
 }

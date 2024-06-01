@@ -74,6 +74,7 @@ export default function ModalCrearCuenta({ usuarioOn, setUsuarioOn, setUser }) {
               timer: 3500,
             });
             setUsuarioOn(true);
+            
             handleClose();
           }, 3000);
         } catch (createError) {
@@ -133,7 +134,7 @@ export default function ModalCrearCuenta({ usuarioOn, setUsuarioOn, setUser }) {
                   Registrarse
                 </Typography>
                 <Typography
-                  style={{ color: "purple" }}
+                  style={{ color: "rgb(80, 182, 185", fontFamily:"Nunito" }}
                   id="transition-modal-description"
                 >
                   Ingresá tus datos para crear tu cuenta
@@ -252,7 +253,8 @@ export default function ModalCrearCuenta({ usuarioOn, setUsuarioOn, setUser }) {
                       textDecoration: "none",
                       paddingLeft: "5px",
                       cursor: "pointer",
-                      color: "purple",
+                      color: "rgb(80, 182, 185",
+                      fontWeight:"bold"
                     }}
                   >
                     acá
