@@ -2,11 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
-  padding: 0px 20px 0px 20px;
+  background-color: rgba(255, 255, 255, 0.856);
+  padding: 0px 10px 0px 10px;
   border-bottom: 1px solid rgba(160, 154, 154, 0.356);
-  background-color: white;
   z-index: 50000;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navBar__enlaces {

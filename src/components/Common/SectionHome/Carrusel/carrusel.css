@@ -1,5 +1,6 @@
 .container-carrusel {
   position: relative;
+  margin-top: 93px; 
 }
 .carrusel-image {
   width: 100%;
