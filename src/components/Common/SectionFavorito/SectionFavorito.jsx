@@ -11,7 +11,7 @@ const SectionFavorito = () => {
   return (
     <div className="favorito">
     <div className="container__titulo__favorito">
-    <h1 className="favorito__titulo">Tus favoritos</h1>
+    <h1 style={{color:"rgb(80, 182, 185)", fontWeight:"bold"}} className="favorito__titulo">Tus favoritos</h1>
     </div>
       <div className="favorito__tarjetas">
         {Object.keys(favorito).length > 0 ? (
@@ -33,7 +33,7 @@ const SectionFavorito = () => {
                 marginBottom: "100px",
               }}
             >
-              <h1 className="favorito__titulo">
+              <h1 style={{ color:"black", fontFamily:"Nunito"}} className="favorito__titulo">
                 Tu lista de deseos está vacía
               </h1>
               <h2 className="favorito__subtitulo">

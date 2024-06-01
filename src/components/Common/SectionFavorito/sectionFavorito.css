@@ -4,25 +4,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 100px;
   gap: 30px;
   padding: 0px 50px 0px 50px;
+  height: auto;
 
-  
+
 }
 .favorito__imagen {
   width: 300px;
 }
 .favorito__titulo {
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+    margin-top: 50px;
+    color: rgb(80, 182, 185);
 }
 
 .favorito__subtitulo {
   font-size: 18px;
-  color: rgb(72, 70, 70);
+  font-family: "Nunito";
+  color: black;
 }
 .favorito__tarjetas {
   display: flex;
@@ -43,5 +46,4 @@
 .favorito__titulo{
   display: flex;
   width: 100%;
-  color: purple;
 }
