@@ -27,7 +27,7 @@ const FondoFijo = () => {
             <h3>Envíos a todo Rosario, VGG y Fisherton</h3>
           </div>
           <Link to={'/nosotros'}>
-          <BotonFondoFijo text={"Sobre nosotross"} />
+          <BotonFondoFijo text={"Sobre nosotros"} />
           </Link>
         </div>
       </div>

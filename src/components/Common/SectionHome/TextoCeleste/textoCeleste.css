@@ -1,0 +1,14 @@
+.textoCeleste{
+    background-color: rgb(80, 182, 185);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    transition: all .2s;
+    width: 350px;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    
+
+}

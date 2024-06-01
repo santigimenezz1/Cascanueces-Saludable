@@ -1,10 +1,12 @@
 .tarjetaHover {
-  width: 280px;
-  height: 420px;
+  width: 320px;
+  height: 440px;
   cursor: pointer;
   border-radius: 8px;
   position: relative;
   margin-bottom: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agregado box-shadow */
+
 }
 .tarjetaHover h1 {
   color: white;
@@ -16,6 +18,7 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  object-fit: cover;
 }
 .tarjetaHover__corazon {
   position: absolute;
@@ -50,3 +53,6 @@
 .tarjetaHover__icono:hover {
   transform: scale(1.2);
 }
+
+
+

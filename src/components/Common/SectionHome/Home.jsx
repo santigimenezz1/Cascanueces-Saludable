@@ -27,6 +27,7 @@ import AgregarImagen from "../AgregarImagen/AgregarImagen";
 import TarjetaCarrusel from "./TarjetaCarruselResponsive/TarjetaCarrusel";
 import CarouselComponent from "./TarjetaCarruselResponsive/TarjetaCarrusel";
 import MyCarousel from "./TarjetaCarruselResponsive/TarjetaCarrusel";
+import TextoCeleste from "./TextoCeleste/TextoCeleste";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -160,7 +161,9 @@ const Home = () => {
         </Link>
         </div>
       </div>
-      <h1 className="home__titulo">Los más elegidos</h1>
+      <div className="home__titulo">
+      <TextoCeleste text={"Los más elegidos"} />
+      </div>
       <div className="home__tarjetaProducto">
         {Object.keys(data).length > 0 ? (
           filtradoHelados.map((producto) => (
@@ -204,11 +207,13 @@ const Home = () => {
         }
         </div>
       <FondoFijo />
-      <h1 className="titulo__comeSano">Comé sano, viví mejor :)</h1>
+      <div className="titulo__comeSano">
+      <TextoCeleste text={"Comé sano, viví mejor :)"} />
+      </div>
       <div className="home__tarjetasGrid">
         <Link to={"/categoria/frutos-secos"}>
           <TarjetaGrid
-            titulo={"Frutos secos "}
+            titulo={"Frutos secos"}
             imagen={
               "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1691788016/CASCANUCES%20SALUDABLE/KoRo-Naturbelassene-Nu_CC_88sse-Gro_C3_9Fpackung-gu_CC_88nstig-online-kaufen-bestellen-onlineshop-ohne-Zucker-ohne-Salz-ohne-Gewu_CC_88rz_q7wze2.jpg"
             }
@@ -304,7 +309,9 @@ const Home = () => {
         </Link>
       </div>
       <FondoFijoProducto />
-      <h1 className="home__titulo">Productos en oferta</h1>
+      <div className="home__titulo">
+      <TextoCeleste text={"Productos en oferta"} />
+      </div>      
       <div className="home__tarjetaProducto"></div>
       <div className="home__tarjetaProducto">
          

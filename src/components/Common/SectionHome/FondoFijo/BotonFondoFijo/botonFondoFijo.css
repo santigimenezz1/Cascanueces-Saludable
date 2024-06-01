@@ -2,8 +2,11 @@
   width: 150px;
   height: 40px;
   border: none;
-  background-color: rgba(51, 16, 47, 0.846);
+  background-color: rgb(80, 182, 185);
   border-radius: 4px;
   cursor: pointer;
   color: white;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 22px;
+
 }

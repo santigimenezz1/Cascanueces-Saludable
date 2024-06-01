@@ -65,7 +65,7 @@ const TarjetaHover = ({ imagenPrincipal, imagenSecundaria, producto }) => {
           </div>
         </>
       ) : (
-        <h1 className="tarjeta__hover__sinStock">Sin stock</h1>
+        <h1 style={{ paddingLeft:"20px",fontFamily: "'Covered By Your Grace', 'cursive'"}} className="tarjeta__hover__sinStock">Sin stock</h1>
       )}
       <div
         onClick={() => setCorazon(!corazon)}
@@ -89,8 +89,8 @@ const TarjetaHover = ({ imagenPrincipal, imagenSecundaria, producto }) => {
         )}
       </div>
       <div className="tarjetaHover__nombrePrecio">
-        <h3>{producto.nombre}</h3>
-        <h3 style={{color:"purple", fontSize:"17px"}}>${producto.precio}</h3>
+        <h3 style={{fontSize:"18px", marginTop:"7px", fontFamily: 'Nunito', fontWeight:"bold"}}>{producto.nombre}</h3>
+        <h3 style={{color:"rgb(80, 182, 185)",fontSize:"16px", fontWeight:"bold"}}>${producto.precio}</h3>
       </div>
     </div>
   );

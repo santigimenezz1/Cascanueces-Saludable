@@ -1,8 +1,13 @@
 .tarjetaCategoria {
-  width: 370px;
-  height: 350px;
+  width: 425px;
+  height: 425px;
   background-size: cover;
   position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agregado box-shadow */
+  border-radius: 4px;
+
+  
+
 }
 .tarjetaCategoria__info {
   position: absolute;
@@ -18,13 +23,20 @@
   width: 70px;
   border-radius: none;
   border: none;
-  background-color: rgb(119, 160, 142);
+  background-color: rgb(80, 182, 185);
   color: white;
   cursor: pointer;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 18px;
+
 }
 .tarjetaCategoria-info__texto {
   font-size: 45px;
+  font-family: 'Nunito', sans-serif;
   color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+
 }
 .tarjetaCategoria__imagen {
   width: 100%;
