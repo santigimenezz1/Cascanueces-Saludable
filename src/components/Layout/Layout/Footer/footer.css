@@ -9,31 +9,44 @@
   background-color: rgba(143, 171, 171, 0.185);
   border-top: 1px solid rgba(128, 0, 128, 0.189);
 
+
 }
 .footer h1 {
   margin-bottom: 10px;
+  font-family: 'Nunito', sans-serif;
+
 }
 .footer__enlaces {
   display: flex;
   flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 .footer__contacto__direccion {
   display: flex;
   gap: 5px;
+  font-family: 'Nunito', sans-serif;
+
 }
 .footer__contacto__whatsapp {
   display: flex;
   gap: 5px;
   margin-top: 10px;
+  font-family: 'Nunito', sans-serif;
+
 }
 .footer__contacto__email {
   display: flex;
   justify-content: center;
   gap: 5px;
+  font-family: 'Nunito', sans-serif;
+
 }
 
 .footer__contacto {
   display: flex;
   flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+
 }

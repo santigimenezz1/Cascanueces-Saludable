@@ -2,23 +2,21 @@ import { Link } from "react-router-dom";
 import "../Footer/footer.css";
 import RedesSociales from "./RedesSociales/RedesSociales";
 import { Height } from "@mui/icons-material";
+import EnlaceUniverseIo from "../../NavBar/Enlaces/EnlaceUniverseIo/EnlaceUniverseIo";
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__navegacion">
-        <h1>Navegacion</h1>
         <div className="footer__enlaces">
           <Link className="enlaces__link" to={"/"}>
-            Home
+            <EnlaceUniverseIo text={"HOME"} ruta={"/"} />
           </Link>
           <Link className="enlaces__link" to={"/categoria"}>
-            productos
+          <EnlaceUniverseIo text={"CATEGORIAS"} ruta={"categoria"} />
+
           </Link>
           <Link className="enlaces__link" to={"/nosotros"}>
-            nosotros
-          </Link>
-          <Link className="enlaces__link" to={"/ayuda"}>
-            ayuda
+          <EnlaceUniverseIo text={"NOSOTROS"} ruta={"nosotros"} />
           </Link>
         </div>
       </div>
