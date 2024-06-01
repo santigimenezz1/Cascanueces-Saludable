@@ -81,7 +81,7 @@ const TarjetaCart = ({ producto }) => {
             quitarUnidad={quitarUnidad}
           />
 
-          <h2 className="precio-tarjetaCart">
+          <h2 style={{fontFamily:"Nunito"}} className="precio-tarjetaCart">
             ${mostrarPrecioConFormato(producto.precio, producto.cantidad)}
           </h2>
           <div className="deleteCartTrash" onClick={handleDeleteClick}>
