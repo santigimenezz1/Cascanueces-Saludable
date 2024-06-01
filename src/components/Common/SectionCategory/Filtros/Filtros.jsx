@@ -23,10 +23,10 @@ export default function Filtros({ mayorMenor, menorMayor, newData }) {
           label="Age"
           onChange={handleChange}
         >
-          <MenuItem onClick={() => mayorMenor(newData)} value={10}>
+          <MenuItem style={{  fontFamily: 'Nunito'}} onClick={() => mayorMenor(newData)} value={10}>
             Menor a mayor
           </MenuItem>
-          <MenuItem onClick={() => menorMayor(newData)} value={20}>
+          <MenuItem style={{  fontFamily: 'Nunito'}} onClick={() => menorMayor(newData)} value={20}>
             Mayor a menor
           </MenuItem>
         </Select>

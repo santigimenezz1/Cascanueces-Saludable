@@ -76,7 +76,7 @@ const TarjetaHoverCategoria = ({ producto }) => {
       </div>
       <div className="tarjetaHover__nombrePrecio">
         <h3>{producto.nombre}</h3>
-        <h3 style={{color:"purple", fontSize:"15px"}}>${producto.precio}</h3>
+        <h3 style={{color:"rgb(80, 182, 185)", fontSize:"15px", fontFamily:"Nunito"}}>${producto.precio}</h3>
       </div>
     </div>
   );
