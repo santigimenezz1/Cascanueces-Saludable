@@ -89,7 +89,7 @@ const TarjetaHover = ({ imagenPrincipal, imagenSecundaria, producto }) => {
         )}
       </div>
       <div className="tarjetaHover__nombrePrecio">
-        <h3 style={{fontSize:"18px", marginTop:"7px", fontFamily: 'Nunito', fontWeight:"bold"}}>{producto.nombre}</h3>
+        <h3 style={{fontSize:"18px", marginTop:"7px", fontFamily: 'Nunito', fontWeight:"bold", color:"black"}}>{producto.nombre}</h3>
         <h3 style={{color:"rgb(80, 182, 185)",fontSize:"16px", fontWeight:"bold"}}>${producto.precio}</h3>
       </div>
     </div>

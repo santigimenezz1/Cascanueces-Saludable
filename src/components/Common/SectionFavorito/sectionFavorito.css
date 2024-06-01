@@ -32,7 +32,7 @@
   flex-wrap: wrap;
   gap: 20px;
   width: 1200px;
-  padding-left: 50px;
+  padding-left: 150px;
 }
 .container-sinFavoritos {
   display: flex;

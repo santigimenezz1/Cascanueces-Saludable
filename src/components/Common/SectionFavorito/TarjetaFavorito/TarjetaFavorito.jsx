@@ -66,7 +66,7 @@ const TarjetaFavorito = ({ imagenPrincipal, imagenSecundaria, producto }) => {
         </div>
       </div>
       <div className="tarjetaHover__nombrePrecio">
-        <h3>Crema de almendras 500g</h3>
+        <h3 style={{fontSize:"18px", marginTop:"7px", fontFamily: 'Nunito', fontWeight:"bold", color:"black"}} >{producto.nombre}</h3>
         <h3>$2.500</h3>
       </div>
     </div>
