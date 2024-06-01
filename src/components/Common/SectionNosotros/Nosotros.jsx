@@ -9,7 +9,7 @@ const Nosotros = () => {
       <div className="nosotros__info">
         <div className="nosotros__info__text">
           <h1 className="nostros__info__text__titulo">
-            Hola, somos Nacho y Lucho
+            Hola, somos <span>Nacho</span> y <span>Lucho</span>  
           </h1>
           <p className="nosotros__info__texto">
           Cascanueces saludable, tu elección consciente. Nuestra tienda nació de la pasión por ofrecer frutos secos y productos naturales de la más alta calidad. Desde el principio, nos enfocamos en seleccionar cuidadosamente frutos secos como nueces y almendras, junto con otros productos naturales, todos provenientes de agricultura agroecológica y productores locales. Valoramos la salud y el bienestar, y es por eso que trabajamos con emprendedores que comparten nuestra filosofía de vida. Así, te garantizamos productos elaborados con amor y la menor cantidad posible de intermediarios. Descubre la frescura y la calidad en cada bocado con FrutoSalud.
