@@ -481,7 +481,7 @@
         }
 
         .modal__inicioSesion__boton button{
-          background-color: purple;
+          background-color: rgb(80, 182, 185);  ;
         }
 
 
@@ -722,6 +722,10 @@
         }
         .navBarMobile{
           display: flex;
+        }
+        .container-carrusel {
+          position: relative;
+          margin-top: 0px;
         }
     
         }
