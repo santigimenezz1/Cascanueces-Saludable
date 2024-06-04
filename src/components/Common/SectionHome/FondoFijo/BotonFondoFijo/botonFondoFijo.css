@@ -1,5 +1,5 @@
 .fondoFijo__button button {
-  width: 150px;
+  width: 180px;
   height: 40px;
   border: none;
   background-color: rgb(80, 182, 185);
@@ -7,6 +7,6 @@
   cursor: pointer;
   color: white;
   font-family: 'Covered By Your Grace', cursive;
-  font-size: 22px;
+  font-size: 18px;
 
 }

@@ -1,11 +1,18 @@
+.cuenta{
+  height: 100vh;
+}
 .cuenta__retroceso {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+  margin-top: 150px;
   
 }
 .cuenta__retroceso h1 {
-  font-size: 25px;
+  font-size: 55px;
+  font-family: 'Covered By Your Grace', cursive;
+  color: rgb(80, 182, 185)
+
 }
 .cuenta__reservas {
   background-color: white;
@@ -43,6 +50,7 @@
   border-radius: 4px;
   cursor: pointer;
   background-color: purple;
+  
   color: white;
   border: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

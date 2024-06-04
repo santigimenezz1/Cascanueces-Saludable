@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 }
 .tipografia-box {
   display: flex;
@@ -46,7 +47,8 @@
 
 }
 .botones-box-crearCuenta:hover {
-  background-color: purple;
+  background-color: rgb(80, 182, 185);
+
 }
 .boton-inicio {
   color: white;
@@ -91,6 +93,7 @@
   background-color: white;
   margin-left: 2px;
   cursor: pointer;
+  border: 1px solid red;
 }
 
 .modal__iniciosesion__person {

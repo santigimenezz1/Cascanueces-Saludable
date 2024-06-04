@@ -148,7 +148,9 @@ export default function ModalFinalizarCompra() {
           color: "white",
           border: "none",
           borderRadius: "4px",
-          backgroundColor: "purple",
+          backgroundColor: "rgb(80, 182, 185)",
+          fontFamily:"Nunito",
+          marginBottom:"50px"
         }}
         onClick={handleOpen}
       >

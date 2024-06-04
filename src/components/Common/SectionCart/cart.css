@@ -1,6 +1,7 @@
 .cart {
   background-color: #eee;
   margin-top: 100px;
+  height: 100vh;
 }
 .cart__boton {
   display: flex;
@@ -11,6 +12,14 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 70px 0px 50px;
+
+}
+.container-retroceso h1 {
+  font-family: 'Covered By Your Grace', cursive;
+  color: rgb(80, 182, 185);
+  font-size: 50px;
+  
+
 }
 .container-retroceso__modal {
   display: flex;
@@ -36,6 +45,7 @@
 .container__cartVacion h1 {
   font-size: 40px;
   font-family: "Nunito";
+  
 
 }
 

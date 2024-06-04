@@ -45,7 +45,7 @@ export default function UserLogin() {
           onClick={handleClick}
         >
        
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ display: "flex", alignItems: "center"}}>
             <h1 style={{ fontSize: "15px" }}>{user.email}</h1>
             <ArrowDropDownIcon color="secondary" />
           </div>
@@ -66,6 +66,7 @@ export default function UserLogin() {
               gap: "5px",
               justifyContent: "center",
               alignItems: "center",
+              marginTop:"25px"
             }}
             onClick={handleClose}
           >
